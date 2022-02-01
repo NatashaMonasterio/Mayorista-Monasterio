@@ -10,7 +10,7 @@ body{
 /* HEADER (ENCABEZADO) */
 
 .titulo{
-    background-color:rgb(177, 6, 6);
+    background-image: linear-gradient(rgb(177, 6, 6), rgba(177, 6, 6, 0.452) );
     color: white;
     width: 100%;
     font-family:Georgia, 'Times New Roman', Times, serif;
@@ -24,7 +24,7 @@ body{
 }
 
 header nav{
-    background-color: rgb(177, 6, 6);
+    background-image: linear-gradient(rgba(177, 6, 6, 0.623), rgb(177, 6, 6) );
     width: 100%;
     display: flex;
     justify-content: space-evenly;
@@ -107,11 +107,16 @@ footer p{
     justify-content: center;
     align-items: center;
     color: blue;
-    background-color: whitesmoke;
+    background-color: rgba(245, 245, 245, 0.884); 
     border: 0.3rem solid red;
     border-radius: 100%;
     margin: 0 23% 5% 23%;
     padding: 3% 5% 4%;
+}
+
+.fabricaLista li a:hover , .distribuidora li a:hover{
+    font-size: 95%;
+    background-color: black;
 }
 
 .fabrica h2{
