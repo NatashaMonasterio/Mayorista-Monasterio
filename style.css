@@ -238,6 +238,15 @@ embed{
     display: flex;
     justify-content: center;
 }
+.embedFabrica:hover{
+    transform: scale(2, 1.3);
+    margin-left: 70%;
+}
+
+.embedDistrib:hover{
+    transform: scale(2.4, 1.3);
+    margin-right: 80%;
+}
 
 .pAfip{
     text-align: center;
