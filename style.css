@@ -26,9 +26,10 @@ header nav a{
     background-image: url(./imagenes/piepagina.jpg);
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 0.2fr 1fr 1.5fr;
+    grid-template-rows: 0.2fr 1fr 1fr;
     color: black;  
     text-align: center;
+    height: 40vh;
 }
 
 .lineaBordo{
@@ -45,22 +46,15 @@ header nav a{
 
 .email, .horarios, .direccion, .atencion {
     background-color: rgba(197, 195, 195, 0.925);
-    margin: 2% auto auto;
-    padding: 3% 2%;
+    margin: 2% auto;
+    padding: 4% 2%;
+    height: min-content;
 }
 
 footer{
     background-color: rgba(59, 55, 55, 0.664);
-    color: white;
     height: 5vh;
-    display: flex;
-    justify-content: center;
-    align-items:center;
 }
-
-footer p{
-    padding-right: 20px
-} 
 
 /* MAIN DEL INDEX */
  
@@ -118,12 +112,12 @@ embed{
 .lineaGris{
     background-color: rgb(92, 91, 91);
     height: 4px;
-    margin-bottom: 20px;
 }
 
 .preguntas{
     text-align: center;
     padding-bottom: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .respuestas{
@@ -133,6 +127,7 @@ embed{
 }
 
 .ayudaPreguntas {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
 }
 
