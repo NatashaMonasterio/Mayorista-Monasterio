@@ -63,55 +63,28 @@ footer p{
 } 
 
 /* MAIN DEL INDEX */
-
-.fabricaDistribuidora{
-   display: flex;
-   justify-content: space-evenly;
-}
-
+ 
 .fabrica, .distribuidora{
-    background-color: rgb(92, 91, 91);
-    text-align: center;
-    width: 50%;
-    height: 18rem;
-    margin: 0.2% 0;
-    padding-top: 2rem ;    
+    background-color: rgb(92, 91, 91); 
 }
+
 
 .fabrica{
     margin-right: 0.3%;
 }
 
+
 .fabrica h2, .distribuidora h2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     color: blue;
     background-color: rgba(245, 245, 245, 0.884); 
     border: 0.3rem solid red;
-    border-radius: 100%;
-    margin: 0 23% 5% 23%;
-    padding: 3% 5% 4%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 .fabricaLista li a:hover , .distribuidora li a:hover{
     font-size: 95%;
     background-color: black;
-}
-
-.fabrica h2{
-    margin-bottom: 10%;
-}
-
-.fabricaLista li, .distribuidoraLista li{
-    list-style: none;
-    padding: 1%;
-}
-
-.fabricaLista a, .distribuidoraLista a{
-    color: white;
-    text-decoration: none;
-}
+} 
 
 /* PARTICULARIDADES POR IGUAL PARA TODOS LOS DEMAS HTML */
 
