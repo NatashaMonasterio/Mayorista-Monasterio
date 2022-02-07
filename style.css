@@ -62,22 +62,24 @@ footer{
     background-color: rgb(92, 91, 91); 
 }
 
-
 .fabrica{
     margin-right: 0.3%;
 }
 
-
 .fabrica h2, .distribuidora h2{
-    color: blue;
     background-color: rgba(245, 245, 245, 0.884); 
     border: 0.3rem solid red;
+    color: blue;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
-.fabricaLista li a:hover , .distribuidora li a:hover{
+.fabricaLista li a, .distribuidoraLista li a{
+    color: white;
+}
+.fabricaLista li a:hover  , .distribuidora li a:hover{
     font-size: 95%;
-    background-color: black;
+    color: black;
+    font-weight: 500;
 } 
 
 /* PARTICULARIDADES POR IGUAL PARA TODOS LOS DEMAS HTML */
