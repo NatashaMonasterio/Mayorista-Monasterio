@@ -1,0 +1,24 @@
+.fabrica, .distribuidora{
+    background-color: $colorSecundario; 
+
+    h2{
+        background-color: $colorFondoTitulos; 
+        border: 0.3rem solid red;
+        color: blue;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .fabricaLista li a, .distribuidoraLista li a{
+        color: white;
+
+        &:hover{
+            font-size: 95%;
+            color: black;
+            font-weight: 500;
+        }
+    }
+}
+
+.fabrica{
+    margin-right: 0.3%;
+}

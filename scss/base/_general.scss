@@ -1,0 +1,22 @@
+body{
+    background-color: $colorFondo;
+
+    .mainTodos{
+        background-color: $colorFondosMain;
+    
+        .titulos{
+            font-family:Georgia, 'Times New Roman', Times, serif;
+        }
+
+        .lineaGris{
+            background-color: $colorSecundario;
+            height: 4px;
+        }
+    }
+}
+
+
+
+
+
+

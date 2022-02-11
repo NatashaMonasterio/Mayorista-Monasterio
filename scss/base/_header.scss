@@ -1,0 +1,15 @@
+header{
+    .titulo{
+        background-image: linear-gradient($colorPrincipal, $colorGradient);
+        font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+
+    nav{
+        background-image: linear-gradient($colorGradient, $colorPrincipal);
+
+        a{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 1.1rem ;
+        }
+    }
+}

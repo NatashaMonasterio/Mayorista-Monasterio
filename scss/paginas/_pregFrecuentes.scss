@@ -1,0 +1,31 @@
+.preguntas{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight:bold;
+    padding: 0 30px 10px 0;
+}
+
+.respuestas{
+    text-align: center;
+    font-family: sans-serif;
+    padding: 10px 60px 30px 10px;
+}
+
+.ayudaPreguntas {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight:bold;
+    font-size: 20px;
+}
+
+.contactoPreguntas{
+    text-align: center;
+    font-family: sans-serif;
+    padding: 8px;
+    margin-bottom: 15px ;
+
+    .contactoClick{
+        font-weight: bold;
+    }
+}

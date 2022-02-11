@@ -1,0 +1,39 @@
+
+.pContacto{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+form div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    label{
+        font-family: sans-serif;
+    }
+    
+    input{
+        width: auto;
+        height: 1.6rem;
+    }
+
+    textarea{
+        width: auto;
+        font-family: sans-serif;
+    }
+}    
+
+.inputSubmit, .inputBorrar{
+    width: auto;
+    height: 2rem;
+}
+
+@media only screen and (min-width: 768px){
+    
+    form div{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }   
+}

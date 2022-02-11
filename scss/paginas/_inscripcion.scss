@@ -1,0 +1,27 @@
+.tituloFabrica, .tituloDistrib{
+    color: blue;
+    background-color: whitesmoke;
+    border: 2px solid red;
+    margin: 0 20%;
+}
+
+.pFabrica, .pDistrib{
+    font-family: sans-serif;
+}
+
+.imgFabrica img, .imgDistrib img{
+    width: 95%;
+    height: auto;
+}
+
+.imgFabrica:hover{
+    transform: scale(2.8, 2.1);
+    margin-left: 50%; 
+    margin-top: 30%;
+}
+
+.imgDistrib:hover{
+    transform: scale(2.8, 2.1);
+    margin-right: 50%;
+    margin-top: 30%;
+}

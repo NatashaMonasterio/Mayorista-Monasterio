@@ -1,0 +1,170 @@
+body {
+  background-color: whitesmoke; }
+  body .mainTodos {
+    background-color: #d6d3d3; }
+    body .mainTodos .titulos {
+      font-family: Georgia, 'Times New Roman', Times, serif; }
+    body .mainTodos .lineaGris {
+      background-color: #5c5b5b;
+      height: 4px; }
+
+header .titulo {
+  background-image: linear-gradient(#b10606, rgba(177, 6, 6, 0.623));
+  font-family: Georgia, 'Times New Roman', Times, serif; }
+
+header nav {
+  background-image: linear-gradient(rgba(177, 6, 6, 0.623), #b10606); }
+  header nav a {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.1rem; }
+
+.lineaBordo {
+  background-color: #b10606;
+  height: 1vh; }
+
+.piePagina {
+  background-image: url(/imagenes/piepagina.jpg); }
+  .piePagina .email, .piePagina .horarios, .piePagina .direccion, .piePagina .atencion {
+    background-color: rgba(197, 195, 195, 0.925);
+    height: min-content;
+    width: fit-content; }
+
+.iframe {
+  display: none; }
+
+footer {
+  background-color: #5c5b5b;
+  height: auto; }
+  footer .iconoWp {
+    color: #25d366; }
+    footer .iconoWp:hover {
+      color: #3d3c3c; }
+
+@media only screen and (min-width: 768px) {
+  /*PIE DE PAGINA*/
+  .iframe {
+    display: flex;
+    justify-content: center; } }
+
+@media only screen and (min-width: 892px) {
+  /* PIE DE PAGINA */
+  .piePagina {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px; }
+  .emailHorario {
+    grid-area: 1 / 1 / 2 / 3; }
+  .atencionDireccion {
+    grid-area: 2 / 1 / 3 / 3; }
+  .iframe {
+    display: flex;
+    grid-area: 1 / 3 / 3 / 4; } }
+
+.fabrica, .distribuidora {
+  background-color: #5c5b5b; }
+  .fabrica h2, .distribuidora h2 {
+    background-color: rgba(245, 245, 245, 0.884);
+    border: 0.3rem solid red;
+    color: blue;
+    font-family: Georgia, 'Times New Roman', Times, serif; }
+  .fabrica .fabricaLista li a, .fabrica .distribuidoraLista li a, .distribuidora .fabricaLista li a, .distribuidora .distribuidoraLista li a {
+    color: white; }
+    .fabrica .fabricaLista li a:hover, .fabrica .distribuidoraLista li a:hover, .distribuidora .fabricaLista li a:hover, .distribuidora .distribuidoraLista li a:hover {
+      font-size: 95%;
+      color: black;
+      font-weight: 500; }
+
+.fabrica {
+  margin-right: 0.3%; }
+
+.textoLista {
+  background-color: #5c5b5b;
+  font-family: sans-serif;
+  font-size: 120%; }
+
+embed {
+  border: 3px solid #b10606;
+  width: 90%;
+  height: 45vh; }
+
+@media only screen and (min-width: 768px) {
+  embed {
+    height: 120vh; } }
+
+.preguntas {
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 0 30px 10px 0; }
+
+.respuestas {
+  text-align: center;
+  font-family: sans-serif;
+  padding: 10px 60px 30px 10px; }
+
+.ayudaPreguntas {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px; }
+
+.contactoPreguntas {
+  text-align: center;
+  font-family: sans-serif;
+  padding: 8px;
+  margin-bottom: 15px; }
+  .contactoPreguntas .contactoClick {
+    font-weight: bold; }
+
+.tituloFabrica, .tituloDistrib {
+  color: blue;
+  background-color: whitesmoke;
+  border: 2px solid red;
+  margin: 0 20%; }
+
+.pFabrica, .pDistrib {
+  font-family: sans-serif; }
+
+.imgFabrica img, .imgDistrib img {
+  width: 95%;
+  height: auto; }
+
+.imgFabrica:hover {
+  transform: scale(2.8, 2.1);
+  margin-left: 50%;
+  margin-top: 30%; }
+
+.imgDistrib:hover {
+  transform: scale(2.8, 2.1);
+  margin-right: 50%;
+  margin-top: 30%; }
+
+.pContacto {
+  font-size: 20px;
+  font-family: sans-serif; }
+
+form div {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  form div label {
+    font-family: sans-serif; }
+  form div input {
+    width: auto;
+    height: 1.6rem; }
+  form div textarea {
+    width: auto;
+    font-family: sans-serif; }
+
+.inputSubmit, .inputBorrar {
+  width: auto;
+  height: 2rem; }
+
+@media only screen and (min-width: 768px) {
+  form div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; } }
