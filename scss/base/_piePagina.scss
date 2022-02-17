@@ -1,5 +1,5 @@
 .lineaBordo{
-    background-color:$colorPrincipal ;
+    background-color: map-get($colores, colorPrincipal);
     height: 1vh;
 } 
 
@@ -7,7 +7,7 @@
     background-image: url(/imagenes/piepagina.jpg);
 
     .email, .horarios, .direccion, .atencion {
-        background-color: $colorDatosPiePagina; 
+        background-color: map-get($colores, colorDatosPiePagina); 
         height: min-content;
         width: fit-content;
     } 
@@ -18,7 +18,7 @@
 }
 
 footer{
-    background-color: $colorSecundario;
+    background-color: map-get($colores, colorSecundario);
     height: auto;
 
     .iconoWp{

@@ -1,6 +1,6 @@
 .tituloFabrica, .tituloDistrib{
     color: blue;
-    background-color: whitesmoke;
+    background-color: map-get($colores, colorFondo);
     border: 2px solid red;
     margin: 0 20%;
 }

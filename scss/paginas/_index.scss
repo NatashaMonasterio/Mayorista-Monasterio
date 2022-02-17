@@ -1,8 +1,8 @@
 .fabrica, .distribuidora{
-    background-color: $colorSecundario; 
+    background-color: map-get($colores, colorSecundario); 
 
     h2{
-        background-color: $colorFondoTitulos; 
+        background-color: map-get($colores, colorFondoTitulos); 
         border: 0.3rem solid red;
         color: blue;
         font-family:Georgia, 'Times New Roman', Times, serif;

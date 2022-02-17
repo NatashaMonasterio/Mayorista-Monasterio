@@ -1,15 +1,15 @@
 body{
-    background-color: $colorFondo;
+    background-color: map-get($colores, colorFondo);
 
     .mainTodos{
-        background-color: $colorFondosMain;
+        background-color: map-get($colores, colorFondosMain);
     
         .titulos{
             font-family:Georgia, 'Times New Roman', Times, serif;
         }
 
         .lineaGris{
-            background-color: $colorSecundario;
+            background-color: map-get($colores, colorSecundario);
             height: 4px;
         }
     }
