@@ -3,8 +3,27 @@ $colores: (
     colorSecundario: rgb(92, 91, 91),
     colorFondo: whitesmoke,
     colorGradientClaroAOscuro: linear-gradient(rgb(177, 6, 6), rgba(177, 6, 6, 0.623)),
-    colorGradientOscuroAClaro: liner-gradient(rgba(177, 6, 6, 0.623), rgb(177, 6, 6)),
+    colorGradientOscuroAClaro: linear-gradient(rgba(177, 6, 6, 0.623), rgb(177, 6, 6)),
     colorDatosPiePagina: rgba(197, 195, 195, 0.925),
     colorFondoTitulos: rgba(245, 245, 245, 0.884),
-    colorFondosMain: rgb(214, 211, 211),
-)
+    colorFondosMain: rgb(214, 211, 211)
+);
+
+%flexRow{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+};
+
+@mixin flexbox ($direction, $justify, $wrap){
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    flex-wrap: $wrap;
+}
+
+@mixin mediaQuery{
+    @media only screen and (min-width: 768px){
+        @content;
+    }
+}
