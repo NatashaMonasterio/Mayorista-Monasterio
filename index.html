@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- KEYWORDS -->
-    <meta name="keywords" content="desarrollo web, coderhouse, HTML, CSS, proyectos, distribuidora, fabrica, mayorista, argentina, cordoba, repartos, productos, venta, alimentos, bebidas, limpieza">
+    <meta name="keywords" content="desarrollo web, coderhouse, HTML, CSS, proyectos, Monasterio, distribuidora, fabrica, mayorista, Argentina, Cordoba, repartos, productos, destacados, envios, servicio, atencion, cliente, venta, alimentos, bebidas, limpieza">
     <!-- DESCRIPTION -->
     <meta name="description" content="Somos una Fábrica y una Distribuidora Mayorista al servicio de nuestros clientes. Entregas en Córdoba en 24/48 horas.">
     <!-- BOOTSTRAP CSS -->
@@ -31,7 +31,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-link  active" aria-current="page" href="./paginas/lista-precios.html">LISTA DE PRECIOS</a>
+                        <a class="nav-link  active" aria-current="page" href="./paginas/fabrica.html">FÁBRICA DE BEBIDAS</a>
                         <a class="nav-link  active" aria-current="page" href="./paginas/preguntas-frecuentes.html">PREGUNTAS FRECUENTES</a>
                         <a class="nav-link  active" aria-current="page" href="./paginas/inscripcion.html">CONSTANCIA DE INSCRIPCION</a>
                         <a class="nav-link  active" aria-current="page" href="./paginas/contacto.html">CONTACTO</a>
@@ -44,26 +44,67 @@
 
     <!-- comienzo main -->
     <main>
-        <section class="d-md-flex">
-            <!-- comienzo grupo: fabrica -->
+        <!-- Tipos productos -->
+        <h2 class="fs-4 text-center my-4">TODOS LOS PRODUCTOS A TU SERVICIO</h2>
+        <section class="d-sm-flex justify-content-evenly tipoProductos">
+            <section class="text-center">
+                <img src="./imagenes/tipoProductos/alimentos.PNG" alt="Venta de alimentos"></img>
+                <p class="fs-5 my-2">Alimentos</p>
+            </section>
+            <section class="text-center">
+                <img src="./imagenes/tipoProductos/bebidas.PNG" alt="Venta de bebidas"></img>
+                <p class="fs-5 my-2">Bebidas</p>
+            </section>
+            <section class="text-center">
+                <img src="./imagenes/tipoProductos/limpieza.PNG" alt="Venta de productos de limpieza"></img>
+                <p class="fs-5 my-2">Limpieza</p>
+            </section>
+        </section>
+
+        <!-- Fabrica y Distribuidora--> 
+        <section class="d-md-flex mb-5">
             <div class="text-center container-fluid py-5 my-1 fabrica">
-                <h2 class=" rounded-circle d-sm-inline fs-3 p-4">FÁBRICA DE BEBIDAS</h2>
-                <ul class="fabricaLista p-5 pb-2" style="list-style: none">
-                    <li><a href="./paginas/fabrica.html" class="text-decoration-none">NUESTRA MARCA</a></li>
-                </ul>
+                <a href="./paginas/fabrica.html" style="text-decoration:none"><h2 class="rounded-circle d-sm-inline fs-3 p-4" >FÁBRICA DE BEBIDAS</h2></a>
             </div>
-            <!-- fin grupo: fabrica -->
-            <!-- comienzo grupo: distribuidora -->
             <div class="text-center container-fluid py-5 my-1 distribuidora">
                 <h2 class="rounded-circle p-4 d-sm-inline fs-3">DISTRIBUIDORA</h2>
-                <ul class="distribuidoraLista p-5 pb-2" style="list-style:none">
-                    <li class="p-1"><a href="./paginas/bebidas-alcoholicas.html" class="text-decoration-none">BEBIDAS ALCOHOLICAS</a></li>
-                    <li class="p-1"><a href="./paginas/bebidas-no-alcoholicas.html" class="text-decoration-none"> BEBIDAS NO ALCOHOLICAS</a></li>
-                    <li class="p-1"><a href="./paginas/productos-alimenticios.html" class="text-decoration-none">PRODUCTOS ALIMENTICIOS</a></li>
-                    <li class="p-1"><a href="./paginas/productos-de-limpieza.html" class="text-decoration-none">PRODUCTOS DE LIMPIEZA</a></li>
-                </ul>
             </div>
-            <!-- fin grupo: distribuidora -->
+        </section>
+
+        <!-- Productos Destacados-->
+        <section class="text-center">
+            <h2 class="mb-3">PRODUCTOS DESTACADOS</h2>
+            <p>Los productos mas dominantes en nuestros clientes</p>
+        </section>
+        <div class="lineaChica"></div>
+        <div class="d-flex fotosDeDestacados">
+            <img src="./imagenes/destacadosIndex/dest1.PNG" alt="Fabrica de bebidas"></img>
+            <img src="./imagenes/destacadosIndex/dest2.PNG" alt="Arroz Mandisovi"></img>
+            <img src="./imagenes/destacadosIndex/dest3.PNG" alt="Productos egran"></img>
+            <img src="./imagenes/destacadosIndex/dest4.jpg" alt="Levite"></img>
+            <img src="./imagenes/destacadosIndex/dest5.jpg" alt="Alcyone durazno y coctel"></img>
+            <img src="./imagenes/destacadosIndex/dest6.PNG" alt="Bodega Valle de Atuel"></img>
+        </div>
+        
+        <!-- Tipo de servicios -->
+        <section class="text-center">
+            <h2>SERVICIOS</h2>
+            <p>Venta mayorista, pre-venta mediante un vendedor asignado, entregas a domicilio y atención personalizada.</p>
+        </section>
+        <div class="lineaChica"></div>
+        <section class="d-md-flex justify-content-evenly my-5 tipoServicios">
+            <section class="text-center">
+                <img src="./imagenes/tipoServicios/entregas.png" alt="Entregas 24/48hs"></img>
+                <p class="fs-5 my-2">Servicio de entrega</p>
+            </section>
+            <section class="text-center">
+                <img src="./imagenes/tipoServicios/asesoramiento.png" alt="Asesoramiento al cliente"></img>
+                <p class="fs-5 my-2">Atención y asesoramiento</p>
+            </section>
+            <section class="text-center">
+                <img src="./imagenes/tipoServicios/promociones.png" alt="Promociones especiales"></img>
+                <p class="fs-5 my-2">Ofertas exclusivas</p>
+            </section>
         </section>
 
         <!-- Comienzo pie de pagina  -->

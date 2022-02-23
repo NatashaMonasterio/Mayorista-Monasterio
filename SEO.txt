@@ -1,9 +1,10 @@
     KEYWORDS:
 Coloque las siguientes keywords en todos los html:
-"desarrollo web, coderhouse, HTML, CSS, proyectos, distribuidora, fabrica, mayorista, argentina, cordoba, 
-repartos, productos, venta, alimentos, bebidas, limpieza"
+"desarrollo web, coderhouse, HTML, CSS, proyectos, Monasterio, distribuidora, fabrica, mayorista, Argentina, 
+Cordoba, repartos, productos, destacados, envios, servicio, atencion, cliente, venta, alimentos, bebidas, 
+limpieza"
 A su vez en cada html agregue keywords respecto al tema de la pagina: 
-- lista precios: "precios, descuentos"
+- fabrica: "jugos, amargos, agua, botella, bidones, litros"
 - preguntas frecuentes: "preguntas, frecuentes, ayuda, consulta"
 - constancia de inscripcion: "constancia, inscripcion, afip"
 - contacto: "formulario, ayuda, consulta, preguntas, quejas"
@@ -11,14 +12,14 @@ A su vez en cada html agregue keywords respecto al tema de la pagina:
     TITULOS:
 Coloque en el index: "Mayorista Monasterio"
 En el resto de los html coloque como base: "Mayorista | " y al lado el tema de la pagina:
-- lista precios: Mayorista | Precios
+- fabrica: Mayorista | Precios
 - preguntas frecuentes: Mayorista | Preguntas Frecuentes
 - constancia de inscripcion: Mayorista | Inscripción
-- contacto: Mayorista | Contacto
+- contacto: Mayorista | Fábrica
 
     DESCRIPCIONES:
 - index: "Somos una Fábrica y una Distribuidora Mayorista al servicio de nuestros clientes. Entregas en Córdoba en 24/48 horas."
-- lista precios: "La lista de precios queda sujeta a cambios constantes. Siempre es mas seguro consultar los precios a un encargado."
+- fabrica: "Somos una Fábrica Mayorista. Levamos a cabo la fabricación de: jugo concentrado, amargo y agua, en botellas y bidones plasticos"
 - preguntas frecuentes: "En esta página podras ver las preguntas que mas nos realizan, si no te sacaste tu duda, podes comunicarte directamente con un encargado quien podra ayudarte con tu consulta."
 - constancia de inscripción: "En esta página podras corroborar que manejamos una empresa que es completamente legal, y podras obtener los datos tanto de la Fábrica como de la Distribuidora."
 - contacto: "Podes realizar tu consulta o dejar un comentario, ingresando tus datos, y un encargado se contactará de inmediato!"
