@@ -129,6 +129,53 @@ footer {
     .jugos, .amargos, .agua {
       overflow-x: scroll; } }
 
+.marcas h4 {
+  border: 0.2rem solid red;
+  background-color: whitesmoke;
+  color: blue; }
+
+.tipoMercaderia {
+  background-image: linear-gradient(to top, rgba(207, 154, 154, 0.212), rgba(189, 116, 116, 0.788), rgba(177, 6, 6, 0.658));
+  padding: 4%; }
+  .tipoMercaderia h3 {
+    color: white;
+    margin-bottom: 7%;
+    background-color: rgba(65, 55, 55, 0.644); }
+
+.limpieza, .bebidas, .alimentos {
+  background-color: white;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-bottom: 3%;
+  border: 1px solid grey;
+  border-radius: 2em; }
+  .limpieza .cuidadoHogar, .limpieza .higiene, .limpieza .conGas, .limpieza .sinGas, .limpieza .cervezas, .limpieza .vinos, .limpieza .destilados, .limpieza .almacen, .bebidas .cuidadoHogar, .bebidas .higiene, .bebidas .conGas, .bebidas .sinGas, .bebidas .cervezas, .bebidas .vinos, .bebidas .destilados, .bebidas .almacen, .alimentos .cuidadoHogar, .alimentos .higiene, .alimentos .conGas, .alimentos .sinGas, .alimentos .cervezas, .alimentos .vinos, .alimentos .destilados, .alimentos .almacen {
+    overflow-x: scroll; }
+    .limpieza .cuidadoHogar img, .limpieza .higiene img, .limpieza .conGas img, .limpieza .sinGas img, .limpieza .cervezas img, .limpieza .vinos img, .limpieza .destilados img, .limpieza .almacen img, .bebidas .cuidadoHogar img, .bebidas .higiene img, .bebidas .conGas img, .bebidas .sinGas img, .bebidas .cervezas img, .bebidas .vinos img, .bebidas .destilados img, .bebidas .almacen img, .alimentos .cuidadoHogar img, .alimentos .higiene img, .alimentos .conGas img, .alimentos .sinGas img, .alimentos .cervezas img, .alimentos .vinos img, .alimentos .destilados img, .alimentos .almacen img {
+      width: max-content;
+      height: 15vh;
+      margin-left: 8%;
+      margin-top: 3%;
+      margin-bottom: 4%; }
+    .limpieza .cuidadoHogar .primerImg, .limpieza .higiene .primerImg, .limpieza .conGas .primerImg, .limpieza .sinGas .primerImg, .limpieza .cervezas .primerImg, .limpieza .vinos .primerImg, .limpieza .destilados .primerImg, .limpieza .almacen .primerImg, .bebidas .cuidadoHogar .primerImg, .bebidas .higiene .primerImg, .bebidas .conGas .primerImg, .bebidas .sinGas .primerImg, .bebidas .cervezas .primerImg, .bebidas .vinos .primerImg, .bebidas .destilados .primerImg, .bebidas .almacen .primerImg, .alimentos .cuidadoHogar .primerImg, .alimentos .higiene .primerImg, .alimentos .conGas .primerImg, .alimentos .sinGas .primerImg, .alimentos .cervezas .primerImg, .alimentos .vinos .primerImg, .alimentos .destilados .primerImg, .alimentos .almacen .primerImg {
+      margin-left: 0; }
+    .limpieza .cuidadoHogar::-webkit-scrollbar, .limpieza .higiene::-webkit-scrollbar, .limpieza .conGas::-webkit-scrollbar, .limpieza .sinGas::-webkit-scrollbar, .limpieza .cervezas::-webkit-scrollbar, .limpieza .vinos::-webkit-scrollbar, .limpieza .destilados::-webkit-scrollbar, .limpieza .almacen::-webkit-scrollbar, .bebidas .cuidadoHogar::-webkit-scrollbar, .bebidas .higiene::-webkit-scrollbar, .bebidas .conGas::-webkit-scrollbar, .bebidas .sinGas::-webkit-scrollbar, .bebidas .cervezas::-webkit-scrollbar, .bebidas .vinos::-webkit-scrollbar, .bebidas .destilados::-webkit-scrollbar, .bebidas .almacen::-webkit-scrollbar, .alimentos .cuidadoHogar::-webkit-scrollbar, .alimentos .higiene::-webkit-scrollbar, .alimentos .conGas::-webkit-scrollbar, .alimentos .sinGas::-webkit-scrollbar, .alimentos .cervezas::-webkit-scrollbar, .alimentos .vinos::-webkit-scrollbar, .alimentos .destilados::-webkit-scrollbar, .alimentos .almacen::-webkit-scrollbar {
+      width: 12px; }
+    .limpieza .cuidadoHogar::-webkit-scrollbar-track, .limpieza .higiene::-webkit-scrollbar-track, .limpieza .conGas::-webkit-scrollbar-track, .limpieza .sinGas::-webkit-scrollbar-track, .limpieza .cervezas::-webkit-scrollbar-track, .limpieza .vinos::-webkit-scrollbar-track, .limpieza .destilados::-webkit-scrollbar-track, .limpieza .almacen::-webkit-scrollbar-track, .bebidas .cuidadoHogar::-webkit-scrollbar-track, .bebidas .higiene::-webkit-scrollbar-track, .bebidas .conGas::-webkit-scrollbar-track, .bebidas .sinGas::-webkit-scrollbar-track, .bebidas .cervezas::-webkit-scrollbar-track, .bebidas .vinos::-webkit-scrollbar-track, .bebidas .destilados::-webkit-scrollbar-track, .bebidas .almacen::-webkit-scrollbar-track, .alimentos .cuidadoHogar::-webkit-scrollbar-track, .alimentos .higiene::-webkit-scrollbar-track, .alimentos .conGas::-webkit-scrollbar-track, .alimentos .sinGas::-webkit-scrollbar-track, .alimentos .cervezas::-webkit-scrollbar-track, .alimentos .vinos::-webkit-scrollbar-track, .alimentos .destilados::-webkit-scrollbar-track, .alimentos .almacen::-webkit-scrollbar-track {
+      background: #afafaf;
+      border-radius: 6px; }
+    .limpieza .cuidadoHogar::-webkit-scrollbar-thumb, .limpieza .higiene::-webkit-scrollbar-thumb, .limpieza .conGas::-webkit-scrollbar-thumb, .limpieza .sinGas::-webkit-scrollbar-thumb, .limpieza .cervezas::-webkit-scrollbar-thumb, .limpieza .vinos::-webkit-scrollbar-thumb, .limpieza .destilados::-webkit-scrollbar-thumb, .limpieza .almacen::-webkit-scrollbar-thumb, .bebidas .cuidadoHogar::-webkit-scrollbar-thumb, .bebidas .higiene::-webkit-scrollbar-thumb, .bebidas .conGas::-webkit-scrollbar-thumb, .bebidas .sinGas::-webkit-scrollbar-thumb, .bebidas .cervezas::-webkit-scrollbar-thumb, .bebidas .vinos::-webkit-scrollbar-thumb, .bebidas .destilados::-webkit-scrollbar-thumb, .bebidas .almacen::-webkit-scrollbar-thumb, .alimentos .cuidadoHogar::-webkit-scrollbar-thumb, .alimentos .higiene::-webkit-scrollbar-thumb, .alimentos .conGas::-webkit-scrollbar-thumb, .alimentos .sinGas::-webkit-scrollbar-thumb, .alimentos .cervezas::-webkit-scrollbar-thumb, .alimentos .vinos::-webkit-scrollbar-thumb, .alimentos .destilados::-webkit-scrollbar-thumb, .alimentos .almacen::-webkit-scrollbar-thumb {
+      background-color: #423e3e;
+      /* color of the scroll thumb */
+      border-radius: 20px;
+      border: 2px solid white;
+      /* creates padding around scroll thumb */ }
+  .limpieza .almacen img, .bebidas .almacen img, .alimentos .almacen img {
+    width: min-content;
+    height: 10vh;
+    margin-left: 5%;
+    margin-bottom: 2%; }
+
 .preguntas {
   text-align: center;
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -154,29 +201,6 @@ footer {
   margin-bottom: 15px; }
   .contactoPreguntas .contactoClick {
     font-weight: bold; }
-
-.tituloFabrica, .tituloDistrib {
-  color: blue;
-  background-color: whitesmoke;
-  border: 2px solid red;
-  margin: 0 20%; }
-
-.pFabrica, .pDistrib {
-  font-family: sans-serif; }
-
-.imgFabrica img, .imgDistrib img {
-  width: 95%;
-  height: auto; }
-
-.imgFabrica:hover {
-  transform: scale(2.8, 2.1);
-  margin-left: 50%;
-  margin-top: 30%; }
-
-.imgDistrib:hover {
-  transform: scale(2.8, 2.1);
-  margin-right: 50%;
-  margin-top: 30%; }
 
 .pContacto {
   font-size: 20px;
