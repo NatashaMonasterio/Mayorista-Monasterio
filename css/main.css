@@ -131,6 +131,15 @@ footer {
     width: max-content;
     height: 40vh;
     padding: 1%; }
+  .fotosDeDestacados::-webkit-scrollbar {
+    width: 12px; }
+  .fotosDeDestacados::-webkit-scrollbar-track {
+    background: #afafaf;
+    border-radius: 6px; }
+  .fotosDeDestacados::-webkit-scrollbar-thumb {
+    background-color: #423e3e;
+    border-radius: 20px;
+    border: 2px solid white; }
 
 /*Tipos de servicios*/
 .tipoServicios p {
