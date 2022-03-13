@@ -1,5 +1,4 @@
 /*Tipo de Productos*/
-
 .tipoProductos{
     margin-bottom: 5%;
 
@@ -10,7 +9,6 @@
 }
 
 /*Fabrica y Distribuidora*/
-
 .fabrica, .distribuidora{
     background-color: map-get($colores, colorSecundario); 
 
@@ -32,7 +30,6 @@
 
 
 /*Productos Destacados*/
-
 .lineaChica{
     background-color: map-get($colores , colorPrincipal);
     height: 0.8vh;
@@ -53,9 +50,7 @@
 }
 
 /*Tipos de servicios*/
-
 .tipoServicios{
-
     p{
         font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         font-weight: bold;

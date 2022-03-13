@@ -5,21 +5,21 @@ Cordoba, repartos, productos, destacados, envios, servicio, atencion, cliente, v
 limpieza"
 A su vez en cada html agregue keywords respecto al tema de la pagina: 
 - fabrica: "jugos, amargos, agua, botella, bidones, litros"
+- distribuidora: "marcas, gaseosas, alcohol, cervezas, vinos, hogar, aperitivos, destilados"
 - preguntas frecuentes: "preguntas, frecuentes, ayuda, consulta"
-- constancia de inscripcion: "constancia, inscripcion, afip"
-- contacto: "formulario, ayuda, consulta, preguntas, quejas"
+- contacto: "contacto, formulario, ayuda, consulta, preguntas, quejas"
 
     TITULOS:
 Coloque en el index: "Mayorista Monasterio"
 En el resto de los html coloque como base: "Mayorista | " y al lado el tema de la pagina:
-- fabrica: Mayorista | Precios
+- fabrica: Mayorista | Fabrica
+- distribuidora: Mayorista | Distribuidora
 - preguntas frecuentes: Mayorista | Preguntas Frecuentes
-- constancia de inscripcion: Mayorista | Inscripción
-- contacto: Mayorista | Fábrica
+- contacto: Mayorista | Contacto
 
     DESCRIPCIONES:
 - index: "Somos una Fábrica y una Distribuidora Mayorista al servicio de nuestros clientes. Entregas en Córdoba en 24/48 horas."
-- fabrica: "Somos una Fábrica Mayorista. Levamos a cabo la fabricación de: jugo concentrado, amargo y agua, en botellas y bidones plasticos"
-- preguntas frecuentes: "En esta página podras ver las preguntas que mas nos realizan, si no te sacaste tu duda, podes comunicarte directamente con un encargado quien podra ayudarte con tu consulta."
-- constancia de inscripción: "En esta página podras corroborar que manejamos una empresa que es completamente legal, y podras obtener los datos tanto de la Fábrica como de la Distribuidora."
+- fabrica: "Somos una Fábrica Mayorista. Llevamos a cabo la fabricación de: jugo concentrado, amargo y agua, en botellas y bidones plasticos"
+- distribuidora: "Somos una Distribuidora Mayorista. Llevamos a cabo la distribución de: productos alimenticios, bebidas, y productos de limpieza"
+- preguntas frecuentes: "En esta página podras ver las preguntas que más nos realizan, si no te sacaste tu duda, podes comunicarte directamente con un encargado que podra ayudarte con tu consulta."
 - contacto: "Podes realizar tu consulta o dejar un comentario, ingresando tus datos, y un encargado se contactará de inmediato!"

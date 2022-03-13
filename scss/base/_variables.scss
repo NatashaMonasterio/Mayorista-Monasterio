@@ -1,12 +1,13 @@
 $colores: (
-    colorPrincipal: rgb(177, 6, 6),
+    colorPrincipal: rgb(177, 6, 6), 
     colorSecundario: rgb(92, 91, 91),
     colorFondo: whitesmoke,
     colorGradientClaroAOscuro: linear-gradient(rgb(177, 6, 6), rgba(177, 6, 6, 0.623)),
     colorGradientOscuroAClaro: linear-gradient(rgba(177, 6, 6, 0.623), rgb(177, 6, 6)),
     colorDatosPiePagina: rgba(197, 195, 195, 0.925),
     colorFondoTitulos: rgba(245, 245, 245, 0.884),
-    colorFondosMain: rgb(214, 211, 211)
+    colorFondosMain: rgb(214, 211, 211),
+    colorTitulos: linear-gradient(to top, rgba(207, 154, 154, 0.212),rgba(189, 116, 116, 0.788), rgba(177, 6, 6, 0.658))
 );
 
 %flexRow{

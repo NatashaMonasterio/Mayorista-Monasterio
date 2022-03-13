@@ -4,16 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- VISTA DE LOGO AL PASAR EL URL DE LA PÁGINA -->
+    <meta property="og:title" content="Mayorista | Preguntas Frecuentes">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://natashamonasterio.github.io/Mayorista-Monasterio/paginas/preguntas-frecuentes.html">
+    <meta property="og:image" content="https://natashamonasterio.github.io/Mayorista-Monasterio/imagenes/logo.png" >
     <!-- KEYWORDS -->
-    <meta name="keywords" content="desarrollo web, coderhouse, HTML, CSS, proyectos, distribuidora, fabrica, mayorista, argentina, cordoba, repartos, productos, venta, alimentos, bebidas, limpieza, preguntas, frecuentes, ayuda, consulta">
+    <meta name="keywords" content="desarrollo web, coderhouse, HTML, CSS, proyectos, Monasterio, distribuidora, fabrica, mayorista, Argentina, Cordoba, repartos, productos, destacados, envios, servicio, atencion, cliente, venta, alimentos, bebidas, limpieza, preguntas, frecuentes, ayuda, consulta">
     <!-- DESCRIPTION -->
-    <meta name="description" content="En esta página podras ver las preguntas que mas nos realizan, si no te sacaste tu duda, podes comunicarte directamente con un encargado quien podra ayudarte con tu consulta.">
+    <meta name="description" content="En esta página podras ver las preguntas que más nos realizan, si no te sacaste tu duda, podes comunicarte directamente con un encargado que podra ayudarte con tu consulta.">
     <!-- BOOTSTRAP CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <!-- CSS -->
-    <link rel="stylesheet" href="../css/main.css"></link>
+    <link rel="stylesheet" href="../css/main.css">
     <!-- FONT AWESOME / ICONOS -->
     <script src="https://kit.fontawesome.com/1f0dfaf756.js" crossorigin="anonymous"></script>
+    <!-- ICONO PARA URL -->
+    <link href="../imagenes/logo.png" rel="icon">
+    <!-- TITLE -->
     <title>Mayorista | Preguntas Frecuentes</title>
 </head>
 <body>
@@ -25,7 +33,7 @@
         </div>
         <nav class="navbar navbar-expand-lg navbar-dark">
             <div class="container-fluid">
-                <a class="navbar-nav nav-link active text-white" aria-current="page" href="../index.html">INICIO</a>
+                <a class="navbar-nav nav-link active text-white" aria-current="page" href="../index.html"><img src="../imagenes/home.png" class="mx-3" width="50px" alt="Inicio"></img></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -48,25 +56,29 @@
         <div class="container-fluid mb-3 lineaGris"></div>
         <ol style="list-style: none;">
             <li>
-                <h3 class="preguntas" >¿POR DONDE REALIZO MI PEDIDO?</h3>
+                <div class="text-center my-4 preguntas"> 
+                    <h3 class="d-inline">¿POR DONDE REALIZO MI PEDIDO?</h3>
+                </div>
                 <p class="respuestas">Para poder relizar su pedido le aconsejamos comunicarse directamente con los números de contactos establecidos en la página, donde le tomaremos sus datos y será comunicado con el preeventista correspondiente según su zona de localización.</p>
             </li>
             <li>
-                <h3 class="preguntas">¿SIEMPRE TIENEN STOCK DISPONIBLE?</h3>
+                <div class="text-center my-4 preguntas"> 
+                    <h3 class="d-inline">¿SIEMPRE TIENEN STOCK DISPONIBLE?</h3>
+                </div>
                 <p class="respuestas">Generalmente si! Pero el stock varía frecuentemente. Si no hay stock de algun producto que seleccionó, se le entregará el resto del pedido de igual manera y cuando el producto en falta vuelva a ingresar podremos coordinar una entrega nuevamente. Es decir, que un producto esté en falta no impedirá que realice su pedido. </p>
             </li> 
             <li>
-                <h3 class="preguntas">¿LA MERCADERIA TIENE DEVOLUCIÓN?</h3>
+                <div class="text-center my-4 preguntas"> 
+                    <h3 class="d-inline">¿LA MERCADERIA TIENE DEVOLUCIÓN?</h3>
+                </div>
                 <p class="respuestas">La mercaderia tendra devolución solo por haberse entregado el producto con fecha de vencimiento corta, o por rotura (siempre y cuando haya sido responsabilidad de los encargados de nuestra empresa). </p>
             </li>
             <li>
-                <h3 class="preguntas">¿LA LISTA DE PRECIOS ESTA SIEMPRE ACTUALIZADA?</h3>
-                <p class="respuestas">NO! Como sabran los productos pueden cambiar de precio TODOS LOS DIAS! ya sea porque bajaron o aumentaron, por lo tanto, la listas se actualizaran solo cuando haya GRANDES CAMBIOS DE PRECIOS en una gran suma de productos. En la lista de precio que se encuentra en la página, podran ver en el extremo superior derecho la fecha de la ultima actualización, de igual manera, SIEMPRE recomendamos comunicarse a los numeros de contactos y consultar los precios del producto en especifico que desee o pedir una nueva lista al dia de la fecha.</p>
-            </li>
-            <li>
-                <h3 class="preguntas">¿HACEN ENVIOS?¿QUE DÍAS?</h3>
+                <div class="text-center my-4 preguntas"> 
+                    <h3 class="d-inline">¿HACEN ENVIOS?¿QUE DÍAS?</h3>
+                </div>
                 <p class="respuestas pb-1">Si! Hacemos envios! Los repartos son generalmente fijos segun el dia y zona. Consultar por zonas que no esten especificadas a continuación:
-                <ul class="pb-5 p-2 text-center" style="list-style:none;">
+                <ul class="respuestas" style="list-style:none;">
                     <li><strong>Lunes:</strong> Calera / Centro</li>
                     <li><strong>Martes:</strong> Calera / Argüello</li>
                     <li><strong>Miércoles:</strong> Alberdi / Villa Allende</li>
@@ -76,7 +88,9 @@
                 </ul>
             </li>
             <li>
-                <h3 class="preguntas">¿PUEDO RETIRAR EL PEDIDO POR LA EMPRESA?</h3>
+                <div class="text-center my-4 preguntas"> 
+                    <h3 class="d-inline text-center">¿PUEDO RETIRAR EL PEDIDO POR LA EMPRESA?</h3>
+                </div>
                 <p class="respuestas">Si! Lo mejor siempre es avisar con anterioridad que deseas pedir para que lo tengan preparado al momento que lo retires y a su vez puedas estar advertido en caso de falta de stock, de esta manera te podes acercar a la empresa y es mucho mas rapida la entrega!</p>
             </li>
         </ol>

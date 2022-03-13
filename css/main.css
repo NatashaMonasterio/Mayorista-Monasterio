@@ -3,6 +3,7 @@ form div {
   flex-direction: column;
   align-items: center; }
 
+/*Etiquetas y clases que son iguales en todos los html - excepto el index */
 body {
   background-color: whitesmoke; }
   body .mainTodos {
@@ -12,6 +13,35 @@ body {
     body .mainTodos .lineaGris {
       background-color: #5c5b5b;
       height: 4px; }
+
+/*Botones de hipervinculo que se repite para fabrica.html y distribuidora.html*/
+.botonDeVinculo div {
+  border-radius: 2em; }
+  .botonDeVinculo div h4 {
+    color: white; }
+    .botonDeVinculo div h4:hover {
+      color: black; }
+
+/*Boton flotante que se repite para fabrica.html y distribuidora.html*/
+.flotante {
+  position: fixed;
+  right: 15px;
+  bottom: 75px; }
+  .flotante img {
+    width: 50px; }
+
+@media only screen and (max-width: 992px) {
+  .flotante {
+    display: none; } }
+
+/* Mismo estilo de titulos para fabrica.html y distribuidora.html */
+.titulosTipoProductos {
+  background-image: linear-gradient(to top, rgba(207, 154, 154, 0.212), rgba(189, 116, 116, 0.788), rgba(177, 6, 6, 0.658));
+  padding: 4%; }
+  .titulosTipoProductos h3 {
+    color: white;
+    margin-bottom: 7%;
+    background-color: rgba(65, 55, 55, 0.644); }
 
 header .titulo {
   background-image: linear-gradient(#b10606, rgba(177, 6, 6, 0.623));
@@ -28,7 +58,7 @@ header nav {
   height: 1vh; }
 
 .piePagina {
-  background-image: url(/imagenes/piepagina.jpg); }
+  background-image: url(../imagenes/piepagina.jpg); }
   .piePagina .email, .piePagina .horarios, .piePagina .direccion, .piePagina .atencion {
     background-color: rgba(197, 195, 195, 0.925);
     height: min-content;
@@ -37,22 +67,12 @@ header nav {
 .iframe {
   display: none; }
 
-footer {
-  background-color: #5c5b5b;
-  height: auto; }
-  footer .iconoWp {
-    color: #25d366; }
-    footer .iconoWp:hover {
-      color: #3d3c3c; }
-
 @media only screen and (min-width: 768px) {
-  /*PIE DE PAGINA*/
   .iframe {
     display: flex;
     justify-content: center; } }
 
 @media only screen and (min-width: 892px) {
-  /* PIE DE PAGINA */
   .piePagina {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -66,6 +86,14 @@ footer {
   .iframe {
     display: flex;
     grid-area: 1 / 3 / 3 / 4; } }
+
+footer {
+  background-color: #5c5b5b;
+  height: auto; }
+  footer .iconoWp {
+    color: #25d366; }
+    footer .iconoWp:hover {
+      color: #3d3c3c; }
 
 /*Tipo de Productos*/
 .tipoProductos {
@@ -113,34 +141,35 @@ footer {
   height: 15vh;
   object-fit: cover; }
 
-.hTresFabrica {
-  color: blue;
-  background-color: whitesmoke;
-  border: 3px solid red;
-  font-family: Georgia, 'Times New Roman', Times, serif; }
+.jugoConcentrado, .amargos, .agua {
+  background-color: white;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 3%;
+  border: 1px solid grey;
+  border-radius: 2em; }
+  .jugoConcentrado .bidonJugo, .jugoConcentrado .botellaJugo, .jugoConcentrado .bidonAmargo, .jugoConcentrado .botellaAmargo, .jugoConcentrado .aguas, .amargos .bidonJugo, .amargos .botellaJugo, .amargos .bidonAmargo, .amargos .botellaAmargo, .amargos .aguas, .agua .bidonJugo, .agua .botellaJugo, .agua .bidonAmargo, .agua .botellaAmargo, .agua .aguas {
+    overflow-x: scroll; }
+    .jugoConcentrado .bidonJugo img, .jugoConcentrado .botellaJugo img, .jugoConcentrado .bidonAmargo img, .jugoConcentrado .botellaAmargo img, .jugoConcentrado .aguas img, .amargos .bidonJugo img, .amargos .botellaJugo img, .amargos .bidonAmargo img, .amargos .botellaAmargo img, .amargos .aguas img, .agua .bidonJugo img, .agua .botellaJugo img, .agua .bidonAmargo img, .agua .botellaAmargo img, .agua .aguas img {
+      width: max-content;
+      margin: auto;
+      margin-top: 3%;
+      margin-bottom: 4%; }
+    .jugoConcentrado .bidonJugo::-webkit-scrollbar, .jugoConcentrado .botellaJugo::-webkit-scrollbar, .jugoConcentrado .bidonAmargo::-webkit-scrollbar, .jugoConcentrado .botellaAmargo::-webkit-scrollbar, .jugoConcentrado .aguas::-webkit-scrollbar, .amargos .bidonJugo::-webkit-scrollbar, .amargos .botellaJugo::-webkit-scrollbar, .amargos .bidonAmargo::-webkit-scrollbar, .amargos .botellaAmargo::-webkit-scrollbar, .amargos .aguas::-webkit-scrollbar, .agua .bidonJugo::-webkit-scrollbar, .agua .botellaJugo::-webkit-scrollbar, .agua .bidonAmargo::-webkit-scrollbar, .agua .botellaAmargo::-webkit-scrollbar, .agua .aguas::-webkit-scrollbar {
+      width: 12px; }
+    .jugoConcentrado .bidonJugo::-webkit-scrollbar-track, .jugoConcentrado .botellaJugo::-webkit-scrollbar-track, .jugoConcentrado .bidonAmargo::-webkit-scrollbar-track, .jugoConcentrado .botellaAmargo::-webkit-scrollbar-track, .jugoConcentrado .aguas::-webkit-scrollbar-track, .amargos .bidonJugo::-webkit-scrollbar-track, .amargos .botellaJugo::-webkit-scrollbar-track, .amargos .bidonAmargo::-webkit-scrollbar-track, .amargos .botellaAmargo::-webkit-scrollbar-track, .amargos .aguas::-webkit-scrollbar-track, .agua .bidonJugo::-webkit-scrollbar-track, .agua .botellaJugo::-webkit-scrollbar-track, .agua .bidonAmargo::-webkit-scrollbar-track, .agua .botellaAmargo::-webkit-scrollbar-track, .agua .aguas::-webkit-scrollbar-track {
+      border-radius: 6px; }
+    .jugoConcentrado .bidonJugo::-webkit-scrollbar-thumb, .jugoConcentrado .botellaJugo::-webkit-scrollbar-thumb, .jugoConcentrado .bidonAmargo::-webkit-scrollbar-thumb, .jugoConcentrado .botellaAmargo::-webkit-scrollbar-thumb, .jugoConcentrado .aguas::-webkit-scrollbar-thumb, .amargos .bidonJugo::-webkit-scrollbar-thumb, .amargos .botellaJugo::-webkit-scrollbar-thumb, .amargos .bidonAmargo::-webkit-scrollbar-thumb, .amargos .botellaAmargo::-webkit-scrollbar-thumb, .amargos .aguas::-webkit-scrollbar-thumb, .agua .bidonJugo::-webkit-scrollbar-thumb, .agua .botellaJugo::-webkit-scrollbar-thumb, .agua .bidonAmargo::-webkit-scrollbar-thumb, .agua .botellaAmargo::-webkit-scrollbar-thumb, .agua .aguas::-webkit-scrollbar-thumb {
+      background-color: #423e3e;
+      border-radius: 20px;
+      border: 2px solid white; }
 
-.jugos, .amargos, .agua {
-  margin: 3% 3% 4% 3%;
-  background-color: white; }
-  .jugos img, .amargos img, .agua img {
-    width: min-content;
-    height: 40vh; }
-  @media only screen and (max-width: 886px) {
-    .jugos, .amargos, .agua {
-      overflow-x: scroll; } }
-
-.marcas h4 {
-  border: 0.2rem solid red;
-  background-color: whitesmoke;
-  color: blue; }
-
-.tipoMercaderia {
-  background-image: linear-gradient(to top, rgba(207, 154, 154, 0.212), rgba(189, 116, 116, 0.788), rgba(177, 6, 6, 0.658));
-  padding: 4%; }
-  .tipoMercaderia h3 {
-    color: white;
-    margin-bottom: 7%;
-    background-color: rgba(65, 55, 55, 0.644); }
+.listaSabores {
+  margin-right: 5%; }
+  .listaSabores ul {
+    background-color: rgba(197, 195, 195, 0.925); }
+  .listaSabores li {
+    font-weight: 500; }
 
 .limpieza, .bebidas, .alimentos {
   background-color: white;
@@ -166,10 +195,8 @@ footer {
       border-radius: 6px; }
     .limpieza .cuidadoHogar::-webkit-scrollbar-thumb, .limpieza .higiene::-webkit-scrollbar-thumb, .limpieza .conGas::-webkit-scrollbar-thumb, .limpieza .sinGas::-webkit-scrollbar-thumb, .limpieza .cervezas::-webkit-scrollbar-thumb, .limpieza .vinos::-webkit-scrollbar-thumb, .limpieza .destilados::-webkit-scrollbar-thumb, .limpieza .almacen::-webkit-scrollbar-thumb, .bebidas .cuidadoHogar::-webkit-scrollbar-thumb, .bebidas .higiene::-webkit-scrollbar-thumb, .bebidas .conGas::-webkit-scrollbar-thumb, .bebidas .sinGas::-webkit-scrollbar-thumb, .bebidas .cervezas::-webkit-scrollbar-thumb, .bebidas .vinos::-webkit-scrollbar-thumb, .bebidas .destilados::-webkit-scrollbar-thumb, .bebidas .almacen::-webkit-scrollbar-thumb, .alimentos .cuidadoHogar::-webkit-scrollbar-thumb, .alimentos .higiene::-webkit-scrollbar-thumb, .alimentos .conGas::-webkit-scrollbar-thumb, .alimentos .sinGas::-webkit-scrollbar-thumb, .alimentos .cervezas::-webkit-scrollbar-thumb, .alimentos .vinos::-webkit-scrollbar-thumb, .alimentos .destilados::-webkit-scrollbar-thumb, .alimentos .almacen::-webkit-scrollbar-thumb {
       background-color: #423e3e;
-      /* color of the scroll thumb */
       border-radius: 20px;
-      border: 2px solid white;
-      /* creates padding around scroll thumb */ }
+      border: 2px solid white; }
   .limpieza .almacen img, .bebidas .almacen img, .alimentos .almacen img {
     width: min-content;
     height: 10vh;
@@ -177,16 +204,22 @@ footer {
     margin-bottom: 2%; }
 
 .preguntas {
-  text-align: center;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 20px;
-  font-weight: bold;
-  padding: 0 30px 10px 0; }
+  padding-top: 10px;
+  padding-right: 60px; }
+  .preguntas h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0.5%;
+    margin-bottom: 7%;
+    background-color: rgba(189, 116, 116, 0.788);
+    border-radius: 2em; }
 
 .respuestas {
   text-align: center;
   font-family: sans-serif;
-  padding: 10px 60px 30px 10px; }
+  padding: 10px 60px 30px 10px;
+  font-size: 18px; }
 
 .ayudaPreguntas {
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -206,20 +239,30 @@ footer {
   font-size: 20px;
   font-family: sans-serif; }
 
-form div label {
-  font-family: sans-serif; }
-
-form div input {
-  width: auto;
-  height: 1.6rem; }
-
-form div textarea {
-  width: auto;
-  font-family: sans-serif; }
-
-.inputSubmit, .inputBorrar {
-  width: auto;
-  height: 2rem; }
+form {
+  width: 500px;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.801);
+  margin-bottom: 4%;
+  border-radius: 2em;
+  padding-top: 2%; }
+  form div label {
+    font-family: sans-serif;
+    color: white;
+    padding-right: 20px; }
+  form div textarea {
+    font-family: sans-serif; }
+  form div input {
+    width: 50%;
+    height: 1.6rem; }
+  form .botonesFormulario input {
+    font-weight: 500;
+    background-color: #b6b1a9;
+    width: auto;
+    height: 2rem;
+    border-radius: 2em; }
+    form .botonesFormulario input:hover {
+      background-image: linear-gradient(to top, rgba(207, 154, 154, 0.212), rgba(189, 116, 116, 0.788), rgba(177, 6, 6, 0.658)); }
 
 @media only screen and (min-width: 768px) {
   form div {
@@ -227,3 +270,8 @@ form div textarea {
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap; } }
+
+@media only screen and (max-width: 535px) {
+  form {
+    width: 90%;
+    margin-bottom: 10%; } }

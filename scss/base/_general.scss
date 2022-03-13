@@ -1,3 +1,4 @@
+/*Etiquetas y clases que son iguales en todos los html - excepto el index */
 body{
     background-color: map-get($colores, colorFondo);
 
@@ -15,8 +16,46 @@ body{
     }
 }
 
+/*Botones de hipervinculo que se repite para fabrica.html y distribuidora.html*/
+.botonDeVinculo{
+    div{
+        border-radius: 2em;
+    
+        h4{
+            color: white;
 
+            &:hover{
+                color: black;
+            }
+        }
+    }
+}
 
+/*Boton flotante que se repite para fabrica.html y distribuidora.html*/
+.flotante{
+    position:fixed;
+    right: 15px;
+    bottom: 75px;
 
+    img{
+        width: 50px;
+    }
+}
 
+@media only screen and (max-width:992px){
+    .flotante{
+        display: none;
+    }
+}
 
+/* Mismo estilo de titulos para fabrica.html y distribuidora.html */
+.titulosTipoProductos{
+    background-image: map-get($colores, colorTitulos);
+    padding: 4%;
+
+    h3{
+        color: white;
+        margin-bottom: 7%;
+        background-color: rgba(65, 55, 55, 0.644);
+    }
+}

@@ -1,34 +1,60 @@
-
 .pContacto{
     font-size: 20px;
     font-family: sans-serif;
 }
 
-form div{
-    @extend %flexRow;
+form{
+    width: 500px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.801);
+    margin-bottom: 4%;
+    border-radius: 2em;
+    padding-top: 2%;
 
-    label{
-        font-family: sans-serif;
-    }
-    
-    input{
-        width: auto;
-        height: 1.6rem;
+    div{
+        @extend %flexRow;
+
+        label{
+            font-family: sans-serif;
+            color: white;
+            padding-right: 20px;
+        }
+        
+        textarea{
+            font-family: sans-serif;
+        }
+
+        input{
+            width: 50%;
+            height: 1.6rem;
+        }
     }
 
-    textarea{
-        width: auto;
-        font-family: sans-serif;
+    .botonesFormulario{
+        input{
+            font-weight: 500;
+            background-color: rgb(182, 177, 169);
+            width: auto;
+            height: 2rem;
+            border-radius: 2em;
+
+            &:hover{
+                background-image: map-get($colores, colorTitulos);
+            }
+        }
     }
 }    
-
-.inputSubmit, .inputBorrar{
-    width: auto;
-    height: 2rem;
-}
 
 @include mediaQuery{
     form div{
         @include flexbox (row, center, wrap)
     }   
 }
+
+@media only screen and (max-width: 535px){
+    form{
+        width: 90%;
+        margin-bottom: 10%;
+    }
+}
+    
